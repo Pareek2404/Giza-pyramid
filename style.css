@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(background.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 8%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+
+.menu{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: white;
+    font-size: 100px;
+}
+
+p{
+    color: white;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+button{
+    width: 180px;
+    color: #000;
+    display: inline-block;
+    padding: 12px 0;
+    border-radius: 20px;
+    margin-top: 30px;
+    background: white;
+    outline: none;
+    border: 0;
+
+}
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+   
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card1{
+    background-image: url(pic-1.png);
+}
+.card2{
+    background-image: url(pic-2.png);
+}
+.card3{
+    background-image: url(pic-3.png);
+}
+.card4{
+    background-image: url(pic-4.png);
+}
+
+.card:hover{
+    transform: translatey(-10px);
+}
+
+h5{
+    color: white;
+    text-shadow: 0 0 5px #9995;
+}
+
+.card p{
+    font-size: 8px;
+    
+}
